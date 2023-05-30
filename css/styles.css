@@ -1,0 +1,188 @@
+div{
+    background-color: white;
+
+}
+hr{
+    border:dotted 6px;
+    width: 4%;
+    color: #EAF6F6;
+    border-bottom: none;
+    margin:100px auto 100px auto;
+
+}
+body{
+    margin: 0;
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+
+/*    Fonts.google.com for fonts  */
+/*    We can use Margin: auto in case the width is mentioned and the text is not centred
+ We can specify more than one font in case one doesnt work the system will skip to the next*/
+}
+h1{
+
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    /*line-height: 2; - used to distance elements on top and below the element*/
+    font-size: 5.625rem;
+    color: #66BFBF;
+
+/*16px=100%=1em,rem is used and recommended as it is best
+ Font size can be in percentage so can it can change with change in size of browser and it should be in em as it is the best*/
+}
+h2{
+
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 10px;
+
+}
+h3{
+    color: #11999E;
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+
+}
+.person{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    border-radius: 200px;
+    position: center;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    top: 120px;
+    padding: 20px 0 20px;
+
+
+/*    To have a fixed image or a navbar we can use position : fixed so that it remains fixed throughout the webpage*/
+}
+.intro{
+    width:30%;
+    margin: auto 35% auto 35%;
+    text-align: center;
+}
+img{
+    display: inline-block;
+    position: relative;
+    left: 10px;
+}
+
+.top-cloud{
+    position: absolute;
+    left: 920px;
+    top: 50px;
+
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 310px;
+}
+.footer-link{
+    color: #11999E;
+    margin-top: 10px 20px;
+    text-decoration: none;
+
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+a:hover{
+    color: #EAF6F6;
+}
+.contact-message{
+    width: 40%;
+    margin: auto 30% auto 30%;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+.chillies{
+    width: 25%;
+    float: left;
+    margin-right: 50px;
+}
+.computer{
+    width: 25%;
+    float: right;
+    margin-left: 50px;
+
+
+}
+p{
+
+    line-height: 2;
+}
+.name{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0 20px;
+
+}
+/*.code-name{*/
+/*    clear: left;*/
+/*}*/
+/*CSS Button Generator.com*/
+.BUTTON_MYH {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial,Serif;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 50px;
+    padding: 30px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.BUTTON_MYH:hover {
+    border: solid #111111 1px;
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #3D94F6);
+    background-image: -moz-linear-gradient(top, #66BFBF, #3D94F6);
+    background-image: -ms-linear-gradient(top, #66BFBF, #3D94F6);
+    background-image: -o-linear-gradient(top, #66BFBF, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.contact-me{
+    margin: 100px auto 100px auto;
+    padding: 10px;
+}
+
+
